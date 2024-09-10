@@ -29,9 +29,6 @@ app.use('/api/events', require('./routes/events') );
 
 
 
-
-
-
 //Escuchar peticiones
 app.listen(puerto, () => {
     console.log(`Servidor corriendo en puerto ${puerto}`)
